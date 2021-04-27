@@ -1,0 +1,17 @@
+version: '2'
+services:
+  web:
+    image: kirokodev/molars1.4
+    depends_on:
+      - db
+    ports:
+      - '8069:8069'
+    volumes:
+      - ./addons:/mnt/extra-addons
+      - ./config:/etc/odoo
+  db:
+    image: postgres:10
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_PASSWORD=odoo
+      - POSTGRES_USER=odoo
