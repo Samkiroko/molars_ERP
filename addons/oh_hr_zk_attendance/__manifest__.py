@@ -21,11 +21,13 @@
 ###################################################################################
 {
     'name': 'Open HRMS Biometric Device Integration',
-    'version': '14.0.1.1.1',
+    'version': '14.0.1.0.0',
     'summary': """Integrating Biometric Device With HR Attendance (Face + Thumb)""",
     'description': 'This module integrates Odoo with the biometric device(Model: ZKteco uFace 202)',
     'category': 'Generic Modules/Human Resources',
-    'author': 'Cybrosys Techno Solutions, Mostafa Shokiel',
+     'live_test_url': 'https://youtu.be/RHSHHU7nzTo',
+    'author': 'Cybrosys Techno Solutions, Mostafa Shokiel,Open HRMS',
+    'live_test_url': 'https://youtu.be/RHSHHU7nzTo',
     'company': 'Cybrosys Techno Solutions',
     'website': "http://www.openhrms.com",
     'depends': ['base_setup', 'hr_attendance'],
@@ -38,7 +40,6 @@
     ],
     'images': ['static/description/banner.png'],
     'license': 'AGPL-3',
-    'demo': [],
     'installable': True,
     'auto_install': False,
     'application': False,

@@ -1,7 +1,7 @@
 version: '2'
 services:
   web:
-    image: kirokodev/molars2.0
+    image: kirokodev/molars
     depends_on:
       - db
     ports:
