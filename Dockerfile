@@ -101,6 +101,7 @@ COPY wait-for-psql.py /usr/local/bin/wait-for-psql.py
 
 RUN pip3 install simplejson
 RUN pip3 install pandas
+RUN pip3 install pyzk
 
 COPY ./addon_source /opt/addons
 
